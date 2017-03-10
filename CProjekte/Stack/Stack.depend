@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1480517247 source:c:\users\hase\desktop\fh\cprojekte\stack\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Stack.h"
+
+1480516561 c:\users\hase\desktop\fh\cprojekte\stack\stack.h
+	<stdbool.h>
+
+1480519828 source:c:\users\hase\desktop\fh\cprojekte\stack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Stack.h"
+
