@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480800854 source:c:\users\hase\desktop\fh\cprojekte\twentyone\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<stdbool.h>
+	<math.h>
+	<time.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1479912019 source:c:\users\hase\desktop\fh\cprojekte\matcalc10\matcalc10.c
+	<stdio.h>
+	<stdlib.h>
+
