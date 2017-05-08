@@ -1,0 +1,1871 @@
+06:37:16 **** Clean-only build of configuration Debug for project FHSS ****
+make clean 
+rm -rf  ./src/FHSS.o ./src/SList.o ./src/Stack.o  ./src/FHSS.d ./src/SList.d ./src/Stack.d  FHSS
+ 
+06:37:31 **** Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building file: ../src/SList.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SList.d" -MT"src/SList.d" -o "src/SList.o" "../src/SList.c"
+Finished building: ../src/SList.c
+ 
+Building file: ../src/Stack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Stack.d" -MT"src/Stack.d" -o "src/Stack.o" "../src/Stack.c"
+Finished building: ../src/Stack.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+06:40:49 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+06:45:17 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+06:58:00 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+06:59:02 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+06:59:55 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:01:02 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:03:19 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:07:03 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:10:41 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:19:10 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:108:9: warning: passing argument 1 of ‘stat’ from incompatible pointer type [-Wincompatible-pointer-types]
+    stat(dir, &st);
+         ^
+In file included from ../src/FHSS.c:17:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘const char * restrict’ but argument is of type ‘struct dirent *’
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:120:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("Number of Links: \t%d\n",st.st_nlink);
+           ^
+../src/FHSS.c:121:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+../src/FHSS.c:125:21: error: invalid type argument of ‘->’ (have ‘struct stat’)
+    grp = getgrgid(st->st_gid);
+                     ^
+../src/FHSS.c:128:21: error: invalid type argument of ‘->’ (have ‘struct stat’)
+    pwd = getpwuid(st->st_uid);
+                     ^
+../src/FHSS.c:130:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+make: *** [src/FHSS.o] Fehler 1
+07:20:05 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+../src/FHSS.c: In function ‘show_dir_content’:
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c:108:9: warning: passing argument 1 of ‘stat’ from incompatible pointer type [-Wincompatible-pointer-types]
+    stat(dir, &st);
+         ^
+In file included from ../src/FHSS.c:17:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘const char * restrict’ but argument is of type ‘struct dirent *’
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:120:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("Number of Links: \t%d\n",st.st_nlink);
+           ^
+../src/FHSS.c:121:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+../src/FHSS.c:125:19: warning: passing argument 1 of ‘getgrgid’ makes integer from pointer without a cast [-Wint-conversion]
+    grp = getgrgid(&st.st_gid);
+                   ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/grp.h:102:22: note: expected ‘__gid_t {aka unsigned int}’ but argument is of type ‘__gid_t * {aka unsigned int *}’
+ extern struct group *getgrgid (__gid_t __gid);
+                      ^
+../src/FHSS.c:128:19: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+    pwd = getpwuid(&st.st_uid);
+                   ^
+In file included from ../src/FHSS.c:21:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t * {aka unsigned int *}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+../src/FHSS.c:130:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:21:22 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:108:9: warning: passing argument 1 of ‘stat’ from incompatible pointer type [-Wincompatible-pointer-types]
+    stat(dir, &st);
+         ^
+In file included from ../src/FHSS.c:17:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘const char * restrict’ but argument is of type ‘struct dirent *’
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:120:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("Number of Links: \t%d\n",st.st_nlink);
+           ^
+../src/FHSS.c:121:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+../src/FHSS.c:130:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+    printf("File Size: \t\t%d bytes\n",st.st_size);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:21:56 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:110:10: warning: passing argument 1 of ‘stat’ from incompatible pointer type [-Wincompatible-pointer-types]
+     stat(dir, &st);
+          ^
+In file included from ../src/FHSS.c:17:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘const char * restrict’ but argument is of type ‘struct dirent *’
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("Number of Links: \t%d\n",st.st_nlink);
+            ^
+../src/FHSS.c:123:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("File Size: \t\t%d bytes\n",st.st_size);
+            ^
+../src/FHSS.c:132:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("File Size: \t\t%d bytes\n",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:23:10 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("Number of Links: \t%d\n",st.st_nlink);
+            ^
+../src/FHSS.c:123:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("File Size: \t\t%d bytes\n",st.st_size);
+            ^
+../src/FHSS.c:132:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("File Size: \t\t%d bytes\n",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:25:24 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:130:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:26:41 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:130:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:28:41 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:130:12: warning: conversion lacks type at end of format [-Wformat=]
+     printf("%l",st.st_size);
+            ^
+../src/FHSS.c:130:12: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+07:29:34 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:130:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+01:28:25 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:130:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+01:32:12 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:133:17: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+         tm_info = ctime(&st.st_mtime);
+                 ^
+../src/FHSS.c:137:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+01:32:45 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:122:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:137:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:02:07 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c:72:27: error: expected ‘;’, ‘,’ or ‘)’ before ‘dirName’
+ char * getRight(char[256] dirName)
+                           ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:139:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:154:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:02:41 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:139:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:154:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:05:23 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+../src/FHSS.c: In function ‘getRight’:
+Building file: ../src/FHSS.c
+../src/FHSS.c:74:6: error: expected identifier or ‘(’ before ‘[’ token
+  char[11] retValue;
+      ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:156:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Invoking: GCC C Compiler
+make: *** [src/FHSS.o] Fehler 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+11:06:45 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:88:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:156:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:07:02 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:88:9: warning: return makes pointer from integer without a cast [-Wint-conversion]
+  return retValue[0];
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:156:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:07:17 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:88:9: warning: return makes pointer from integer without a cast [-Wint-conversion]
+  return * retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:156:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:09:17 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:78:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[0] = (S_ISDIR(st.st_mode)) ? "d" : "-";
+              ^
+../src/FHSS.c:79:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[1] = (st.st_mode & S_IRUSR) ? "r" : "-";
+              ^
+../src/FHSS.c:80:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[2] = (st.st_mode & S_IWUSR) ? "w" : "-";
+              ^
+../src/FHSS.c:81:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[3] = (st.st_mode & S_IXUSR) ? "x" : "-";
+              ^
+../src/FHSS.c:82:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[4] = (st.st_mode & S_IRGRP) ? "r" : "-";
+              ^
+../src/FHSS.c:83:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[5] = (st.st_mode & S_IWGRP) ? "w" : "-";
+              ^
+../src/FHSS.c:84:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[6] = (st.st_mode & S_IXGRP) ? "x" : "-";
+              ^
+../src/FHSS.c:85:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[7] = (st.st_mode & S_IROTH) ? "r" : "-";
+              ^
+../src/FHSS.c:86:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[8] = (st.st_mode & S_IWOTH) ? "w" : "-";
+              ^
+../src/FHSS.c:87:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[9] = (st.st_mode & S_IXOTH) ? "x" : "-";
+              ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:142:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:157:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:10:01 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:78:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[0] = (char)(S_ISDIR(st.st_mode)) ? "d" : "-";
+              ^
+../src/FHSS.c:79:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[1] = (char)(st.st_mode & S_IRUSR) ? "r" : "-";
+              ^
+../src/FHSS.c:80:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[2] = (char)(st.st_mode & S_IWUSR) ? "w" : "-";
+              ^
+../src/FHSS.c:81:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[3] = (char)(st.st_mode & S_IXUSR) ? "x" : "-";
+              ^
+../src/FHSS.c:82:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[4] = (char)(st.st_mode & S_IRGRP) ? "r" : "-";
+              ^
+../src/FHSS.c:83:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[5] = (char)(st.st_mode & S_IWGRP) ? "w" : "-";
+              ^
+../src/FHSS.c:84:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[6] = (char)(st.st_mode & S_IXGRP) ? "x" : "-";
+              ^
+../src/FHSS.c:85:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[7] = (char)(st.st_mode & S_IROTH) ? "r" : "-";
+              ^
+../src/FHSS.c:86:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[8] = (char)(st.st_mode & S_IWOTH) ? "w" : "-";
+              ^
+../src/FHSS.c:87:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[9] = (char)(st.st_mode & S_IXOTH) ? "x" : "-";
+              ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return (char *) retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:142:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:157:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:10:49 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:79:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[1] = (char)(st.st_mode & S_IRUSR) ? "r" : "-";
+              ^
+../src/FHSS.c:80:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[2] = (char)(st.st_mode & S_IWUSR) ? "w" : "-";
+              ^
+../src/FHSS.c:81:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[3] = (char)(st.st_mode & S_IXUSR) ? "x" : "-";
+              ^
+../src/FHSS.c:82:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[4] = (char)(st.st_mode & S_IRGRP) ? "r" : "-";
+              ^
+../src/FHSS.c:83:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[5] = (char)(st.st_mode & S_IWGRP) ? "w" : "-";
+              ^
+../src/FHSS.c:84:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[6] = (char)(st.st_mode & S_IXGRP) ? "x" : "-";
+              ^
+../src/FHSS.c:85:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[7] = (char)(st.st_mode & S_IROTH) ? "r" : "-";
+              ^
+../src/FHSS.c:86:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[8] = (char)(st.st_mode & S_IWOTH) ? "w" : "-";
+              ^
+../src/FHSS.c:87:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  retValue[9] = (char)(st.st_mode & S_IXOTH) ? "x" : "-";
+              ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return (char *) retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:142:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:157:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:12:28 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getRight’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return (char *) retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:142:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:157:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:12:36 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+../src/FHSS.c: In function ‘getRight’:
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:142:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:157:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:13:30 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:14:24 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return retValue;
+         ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:12: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+     printf("%s ", getFileRights(dir->d_name));
+            ^
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:14:33 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:77:7: warning: passing argument 1 of ‘stat’ makes pointer from integer without a cast [-Wint-conversion]
+  stat(dirName, &st);
+       ^
+In file included from ../src/FHSS.c:17:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:89:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return retValue;
+         ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:33: warning: passing argument 1 of ‘getFileRights’ makes integer from pointer without a cast [-Wint-conversion]
+     printf("%s ", getFileRights(dir->d_name));
+                                 ^
+../src/FHSS.c:72:6: note: expected ‘char’ but argument is of type ‘char *’
+ char getFileRights(char dirName)
+      ^
+../src/FHSS.c:143:12: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+     printf("%s ", getFileRights(dir->d_name));
+            ^
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:14:44 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return retValue;
+         ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:12: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+     printf("%s ", getFileRights(dir->d_name));
+            ^
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:19:34 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return retValue;
+         ^
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:12: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+     printf("%s ", getFileRights(dir->d_name));
+            ^
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:21:23 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:146:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:161:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:21:45 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:144:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:159:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:22:09 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+     printf("%d",st.st_nlink);
+            ^
+../src/FHSS.c:158:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__off_t {aka long int}’ [-Wformat=]
+     printf("%d",st.st_size);
+            ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:23:19 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:23:55 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:24:35 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:26:54 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:141:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:30:26 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:143:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:32:18 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:148:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:37:15 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:148:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+../src/FHSS.c:182:4: error: expected ‘;’ before ‘}’ token
+    }
+    ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:37:24 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:89:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:148:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘__nlink_t {aka long unsigned int}’ [-Wformat=]
+    printf("%d",st.st_nlink);
+           ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:42:34 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:90:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:43:22 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:90:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:46:09 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c:25:31: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                               ^
+../src/FHSS.c:25:31: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:38: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                      ^
+../src/FHSS.c:25:38: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:45: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                             ^
+../src/FHSS.c:25:45: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:52: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                    ^
+../src/FHSS.c:25:52: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:59: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                           ^
+../src/FHSS.c:25:59: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:66: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                  ^
+../src/FHSS.c:25:66: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:73: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                         ^
+../src/FHSS.c:25:73: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:80: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                                ^
+../src/FHSS.c:25:80: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:87: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                                       ^
+../src/FHSS.c:25:87: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:94: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                                              ^
+../src/FHSS.c:25:94: note: (near initialization for ‘monthNames’)
+../src/FHSS.c:25:101: error: excess elements in char array initializer
+ char monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+                                                                                                     ^
+../src/FHSS.c:25:101: note: (near initialization for ‘monthNames’)
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:91:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:174:11: error: ‘struct tm’ has no member named ‘strftime’
+    tm_info->
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+           ^
+make: *** [src/FHSS.o] Fehler 1
+11:47:27 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c:25:9: error: expected identifier or ‘(’ before ‘char’
+ const * char monthNames[] = {"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"};
+         ^
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:91:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:174:11: error: ‘struct tm’ has no member named ‘strftime’
+    tm_info->
+           ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:48:22 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:91:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:174:11: error: ‘struct tm’ has no member named ‘strftime’
+    tm_info->
+           ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:48:35 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:91:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:174:11: error: ‘struct tm’ has no member named ‘strftime’
+    tm_info->
+           ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:48:51 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘getFileRights’:
+../src/FHSS.c:91:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return retValue;
+         ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:50:15 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:58:28 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printfFileRights’:
+../src/FHSS.c:79:11: error: invalid operands to binary == (have ‘void *’ and ‘struct stat’)
+  if (NULL == st)
+           ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+11:59:05 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+11:59:23 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:00:30 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printUserUser’:
+../src/FHSS.c:116:17: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+  pwd = getpwuid(uid);
+                 ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t * {aka unsigned int *}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:182:18: warning: passing argument 1 of ‘printUserUser’ makes pointer from integer without a cast [-Wint-conversion]
+    printUserUser(st.st_uid);
+                  ^
+../src/FHSS.c:113:6: note: expected ‘__uid_t * {aka unsigned int *}’ but argument is of type ‘__uid_t {aka unsigned int}’
+ void printUserUser(__uid_t * uid)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:01:01 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:01:47 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printGroupUser’:
+../src/FHSS.c:103:17: warning: passing argument 1 of ‘getgrgid’ makes integer from pointer without a cast [-Wint-conversion]
+  grp = getgrgid(&gid);
+                 ^
+In file included from ../src/FHSS.c:23:0:
+/usr/include/grp.h:102:22: note: expected ‘__gid_t {aka unsigned int}’ but argument is of type ‘__gid_t ** {aka unsigned int **}’
+ extern struct group *getgrgid (__gid_t __gid);
+                      ^
+../src/FHSS.c: In function ‘printUserUser’:
+../src/FHSS.c:116:17: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+  pwd = getpwuid(&uid);
+                 ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t ** {aka unsigned int **}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:02:02 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printGroupUser’:
+../src/FHSS.c:103:17: warning: passing argument 1 of ‘getgrgid’ makes integer from pointer without a cast [-Wint-conversion]
+  grp = getgrgid(gid);
+                 ^
+In file included from ../src/FHSS.c:23:0:
+/usr/include/grp.h:102:22: note: expected ‘__gid_t {aka unsigned int}’ but argument is of type ‘__gid_t * {aka unsigned int *}’
+ extern struct group *getgrgid (__gid_t __gid);
+                      ^
+../src/FHSS.c: In function ‘printUserUser’:
+../src/FHSS.c:116:17: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+  pwd = getpwuid(uid);
+                 ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t * {aka unsigned int *}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:02:17 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printGroupUser’:
+../src/FHSS.c:103:17: warning: passing argument 1 of ‘getgrgid’ makes integer from pointer without a cast [-Wint-conversion]
+  grp = getgrgid(gid);
+                 ^
+In file included from ../src/FHSS.c:23:0:
+/usr/include/grp.h:102:22: note: expected ‘__gid_t {aka unsigned int}’ but argument is of type ‘__gid_t * {aka unsigned int *}’
+ extern struct group *getgrgid (__gid_t __gid);
+                      ^
+../src/FHSS.c: In function ‘printUserUser’:
+../src/FHSS.c:116:17: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+  pwd = getpwuid(uid);
+                 ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t * {aka unsigned int *}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:180:19: warning: passing argument 1 of ‘printGroupUser’ makes pointer from integer without a cast [-Wint-conversion]
+    printGroupUser(st.st_gid);
+                   ^
+../src/FHSS.c:100:6: note: expected ‘__gid_t * {aka unsigned int *}’ but argument is of type ‘__gid_t {aka unsigned int}’
+ void printGroupUser(__gid_t * gid)
+      ^
+../src/FHSS.c:182:18: warning: passing argument 1 of ‘printUserUser’ makes pointer from integer without a cast [-Wint-conversion]
+    printUserUser(st.st_uid);
+                  ^
+../src/FHSS.c:113:6: note: expected ‘__uid_t * {aka unsigned int *}’ but argument is of type ‘__uid_t {aka unsigned int}’
+ void printUserUser(__uid_t * uid)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:02:56 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printGroupUser’:
+../src/FHSS.c:103:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  grp = getgrgid((__gid_t)gid);
+                 ^
+../src/FHSS.c: In function ‘printUserUser’:
+../src/FHSS.c:116:17: warning: passing argument 1 of ‘getpwuid’ makes integer from pointer without a cast [-Wint-conversion]
+  pwd = getpwuid(uid);
+                 ^
+In file included from ../src/FHSS.c:22:0:
+/usr/include/pwd.h:110:23: note: expected ‘__uid_t {aka unsigned int}’ but argument is of type ‘__uid_t * {aka unsigned int *}’
+ extern struct passwd *getpwuid (__uid_t __uid);
+                       ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:180:19: warning: passing argument 1 of ‘printGroupUser’ makes pointer from integer without a cast [-Wint-conversion]
+    printGroupUser(st.st_gid);
+                   ^
+../src/FHSS.c:100:6: note: expected ‘__gid_t * {aka unsigned int *}’ but argument is of type ‘__gid_t {aka unsigned int}’
+ void printGroupUser(__gid_t * gid)
+      ^
+../src/FHSS.c:182:18: warning: passing argument 1 of ‘printUserUser’ makes pointer from integer without a cast [-Wint-conversion]
+    printUserUser(st.st_uid);
+                  ^
+../src/FHSS.c:113:6: note: expected ‘__uid_t * {aka unsigned int *}’ but argument is of type ‘__uid_t {aka unsigned int}’
+ void printUserUser(__uid_t * uid)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:03:37 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:04:19 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:05:24 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:176:20: warning: unused variable ‘pwd’ [-Wunused-variable]
+    struct passwd * pwd;
+                    ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:06:28 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:08:37 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:167:21: warning: passing argument 1 of ‘printfFileRights’ makes integer from pointer without a cast [-Wint-conversion]
+    printfFileRights(dir->d_name);
+                     ^
+../src/FHSS.c:74:6: note: expected ‘__mode_t {aka unsigned int}’ but argument is of type ‘char *’
+ void printfFileRights(__mode_t st_mode)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:10:13 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+In file included from ../src/FHSS.c:18:0:
+../src/FHSS.c: In function ‘printfFileRights’:
+../src/FHSS.c:77:11: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (S_ISDIR(st_mode)) ? "d" : "-");
+           ^
+../src/FHSS.c:78:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IRUSR) ? "r" : "-");
+                   ^
+../src/FHSS.c:79:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWUSR) ? "w" : "-");
+                   ^
+../src/FHSS.c:80:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXUSR) ? "x" : "-");
+                   ^
+../src/FHSS.c:81:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IRGRP) ? "r" : "-");
+                   ^
+../src/FHSS.c:82:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWGRP) ? "w" : "-");
+                   ^
+../src/FHSS.c:83:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXGRP) ? "x" : "-");
+                   ^
+../src/FHSS.c:84:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IROTH) ? "r" : "-");
+                   ^
+../src/FHSS.c:85:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWOTH) ? "w" : "-");
+                   ^
+../src/FHSS.c:86:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXOTH) ? "x" : "-");
+                   ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:167:21: warning: passing argument 1 of ‘printfFileRights’ makes pointer from integer without a cast [-Wint-conversion]
+    printfFileRights(st.st_mode);
+                     ^
+../src/FHSS.c:74:6: note: expected ‘__mode_t * {aka unsigned int *}’ but argument is of type ‘__mode_t {aka unsigned int}’
+ void printfFileRights(__mode_t * st_mode)
+      ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+12:10:34 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+In file included from ../src/FHSS.c:18:0:
+../src/FHSS.c: In function ‘printfFileRights’:
+../src/FHSS.c:77:11: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (S_ISDIR(st_mode)) ? "d" : "-");
+           ^
+../src/FHSS.c:78:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IRUSR) ? "r" : "-");
+                   ^
+../src/FHSS.c:79:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWUSR) ? "w" : "-");
+                   ^
+../src/FHSS.c:80:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXUSR) ? "x" : "-");
+                   ^
+../src/FHSS.c:81:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IRGRP) ? "r" : "-");
+                   ^
+../src/FHSS.c:82:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWGRP) ? "w" : "-");
+                   ^
+../src/FHSS.c:83:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXGRP) ? "x" : "-");
+                   ^
+../src/FHSS.c:84:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IROTH) ? "r" : "-");
+                   ^
+../src/FHSS.c:85:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IWOTH) ? "w" : "-");
+                   ^
+../src/FHSS.c:86:19: error: invalid operands to binary & (have ‘__mode_t * {aka unsigned int *}’ and ‘int’)
+  printf( (st_mode & S_IXOTH) ? "x" : "-");
+                   ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+12:10:47 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:163:22: error: incompatible type for argument 2 of ‘stat’
+    stat(dir->d_name, st);
+                      ^
+In file included from ../src/FHSS.c:18:0:
+/usr/include/x86_64-linux-gnu/sys/stat.h:208:12: note: expected ‘struct stat * restrict’ but argument is of type ‘struct stat’
+ extern int stat (const char *__restrict __file,
+            ^
+../src/FHSS.c:167:21: warning: passing argument 1 of ‘printfFileRights’ makes integer from pointer without a cast [-Wint-conversion]
+    printfFileRights(&st.st_mode);
+                     ^
+../src/FHSS.c:74:6: note: expected ‘__mode_t {aka unsigned int}’ but argument is of type ‘__mode_t * {aka unsigned int *}’
+ void printfFileRights(__mode_t st_mode)
+      ^
+src/subdir.mk:24: die Regel für Ziel „src/FHSS.o“ scheiterte
+make: *** [src/FHSS.o] Fehler 1
+12:11:08 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:16:31 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:127:22: warning: passing argument 1 of ‘localtime’ makes pointer from integer without a cast [-Wint-conversion]
+  tm_info = localtime(mtime);
+                      ^
+In file included from ../src/FHSS.c:15:0:
+/usr/include/time.h:243:19: note: expected ‘const time_t * {aka const long int *}’ but argument is of type ‘time_t {aka const long int}’
+ extern struct tm *localtime (const time_t *__timer) __THROW;
+                   ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:188:18: warning: passing argument 1 of ‘printFileDate’ makes integer from pointer without a cast [-Wint-conversion]
+    printFileDate(&st.st_mtime);
+                  ^
+../src/FHSS.c:122:6: note: expected ‘time_t {aka const long int}’ but argument is of type ‘__time_t * {aka long int *}’
+ void printFileDate(const time_t mtime)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:16:51 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:127:22: warning: passing argument 1 of ‘localtime’ makes pointer from integer without a cast [-Wint-conversion]
+  tm_info = localtime(mtime);
+                      ^
+In file included from ../src/FHSS.c:15:0:
+/usr/include/time.h:243:19: note: expected ‘const time_t * {aka const long int *}’ but argument is of type ‘time_t {aka const long int}’
+ extern struct tm *localtime (const time_t *__timer) __THROW;
+                   ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:17:07 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:127:22: warning: passing argument 1 of ‘localtime’ makes pointer from integer without a cast [-Wint-conversion]
+  tm_info = localtime(mtime);
+                      ^
+In file included from ../src/FHSS.c:15:0:
+/usr/include/time.h:243:19: note: expected ‘const time_t * {aka const long int *}’ but argument is of type ‘time_t {aka const long int}’
+ extern struct tm *localtime (const time_t *__timer) __THROW;
+                   ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:188:18: warning: passing argument 1 of ‘printFileDate’ makes integer from pointer without a cast [-Wint-conversion]
+    printFileDate(&st.st_mtime);
+                  ^
+../src/FHSS.c:122:6: note: expected ‘time_t {aka const long int}’ but argument is of type ‘__time_t * {aka long int *}’
+ void printFileDate(const time_t mtime)
+      ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:18:26 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:20:06 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:124:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[26];
+       ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:22:49 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:124:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[26];
+       ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:24:17 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘printFileDate’:
+../src/FHSS.c:124:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[26];
+       ^
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:191:17: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘__off_t {aka long int}’ [-Wformat=]
+    sprintf(str, "%d", st.st_size);
+                 ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:28:33 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:30:11 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:38:00 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+../src/FHSS.c: In function ‘show_dir_content’:
+../src/FHSS.c:180:8: warning: unused variable ‘isExecuteAble’ [-Wunused-variable]
+   bool isExecuteAble = (st.st_mode & S_IXUSR) || (st.st_mode & S_IXGRP) || (st.st_mode & S_IXOTH);
+        ^
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+12:39:34 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
