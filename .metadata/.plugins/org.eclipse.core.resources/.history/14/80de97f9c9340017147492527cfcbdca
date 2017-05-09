@@ -71,14 +71,6 @@ void showHelp(void)
     printf("\t         \tWenn kein Parameter angegeben wird, wird das aktuelle Verzeichnis verwendet.\n");
 }
 
-/*
- * Gibt den Dateirechte einer Datei auf stdout aus
- * bswp:
- *       drwxr--r--
- *       -rwxr--r--
- * Parameter:
- * 	- st_mode: st_mode aus der Funktion stat fuer eine Datei
- */
 void printfFileRights(__mode_t st_mode)
 {
 	printf("%s",NORMAL_COLOR);
@@ -103,11 +95,6 @@ void printfFileRights(__mode_t st_mode)
 	printf( (st_mode & S_IXOTH) ? "x" : "-");
 }
 
-/*
- * Gibt den Gruppennamen der Datei auf stdout aus
- * Parameter:
- * 	- gid: group-id der Datei
- */
 void printGroupUser(__gid_t gid)
 {
 	struct group *grp;
@@ -122,11 +109,6 @@ void printGroupUser(__gid_t gid)
 	}
 }
 
-/*
- * Gibt die Benuternamen der Datei auf stdout aus
- * Parameter:
- * 	- uid: user-id der Datei
- */
 void printUserUser(__uid_t uid)
 {
 	struct passwd *pwd;
@@ -142,11 +124,6 @@ void printUserUser(__uid_t uid)
 	}
 }
 
-/*
- * Gibt die Anzahl der Links einer Datei formatiert auf stdout aus
- * Parameter:
- * 	- nlink_t: Anzahl der Links der Datei
- */
 void printLinkInfo(__nlink_t nlink_t)
 {
 	printf("%s", NORMAL_COLOR);
@@ -154,12 +131,9 @@ void printLinkInfo(__nlink_t nlink_t)
 }
 
 /*
- * Gibt das Datum der Datei formatiert auf stdout aus
- * Wenn der Zeitpunkt der Erstellung nicht im selben Jahr wie die aktuelle Systemzeit ist
- * wird  'Monat Tag Jahr' ausgegeben
- * sonst 'Monat Tag Uhrzeit'
+ * Gibt das der Datei formatiert auf stdout aus
  * Parameter:
- * 	- mtime: Datum der Datei
+ * 	- size: Dateigroesse
  */
 void printFileDate(const time_t mtime)
 {
@@ -172,7 +146,6 @@ void printFileDate(const time_t mtime)
 
 	printf("%s", monthNames[tm_info->tm_mon-1]);
 	printf(" %02d", tm_info->tm_mday);
-	//Wenn aktuelles Jahr nicht gleich das Jahr der Datei -> Jahr anstelle der Uhrzeit ausgeben
 	if ((timeinfo->tm_year) == (tm_info->tm_year))
 	{
 		printf(" %02d:%02d", tm_info->tm_hour, tm_info->tm_min);
@@ -211,9 +184,7 @@ void printFileSize(__off_t size)
  */
 void printFileName(struct stat st, const char * d_name)
 {
-	// Handelt es sich um eine ausfuehrbare Datei?
 	bool isExecuteAble = (st.st_mode & S_IXUSR) || (st.st_mode & S_IXGRP) || (st.st_mode & S_IXOTH);
-
 	if (S_ISDIR(st.st_mode))
 	{
 		printf("%s%s  ", BLUE, d_name);
@@ -293,29 +264,6 @@ int show_dir_content(char * path, int params)
 	}
 	closedir(d); // Den Verzeichnis-Kanal schliessen
 	return RET_PARSE_CMD_OK;
-}
-
-int runExecuteable(char * path, char * argv)
-{
-	pid_t parent = getpid();
-	pid_t pid = fork();
-
-	if (pid == -1)
-	{
-	    // Fehler beim Aufruf von fork()
-	}
-	else if (pid > 0)
-	{
-	    int status;
-	    waitpid(pid, &status, 0);
-	}
-	else
-	{
-	    // Kindprozess
-	    // execve(...);
-		execv(path, argv);
-	    _exit(EXIT_FAILURE);   // exec kommt nie zurueck
-	}
 }
 
 /*

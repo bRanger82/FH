@@ -295,7 +295,7 @@ int show_dir_content(char * path, int params)
 	return RET_PARSE_CMD_OK;
 }
 
-int runExecuteable(char * path, char * argv)
+int runExecuteable(void)
 {
 	pid_t parent = getpid();
 	pid_t pid = fork();
@@ -313,8 +313,7 @@ int runExecuteable(char * path, char * argv)
 	{
 	    // Kindprozess
 	    // execve(...);
-		execv(path, argv);
-	    _exit(EXIT_FAILURE);   // exec kommt nie zurueck
+	    _exit(EXIT_FAILURE);   // exec never returns
 	}
 }
 

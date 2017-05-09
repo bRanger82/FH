@@ -295,29 +295,6 @@ int show_dir_content(char * path, int params)
 	return RET_PARSE_CMD_OK;
 }
 
-int runExecuteable(char * path, char * argv)
-{
-	pid_t parent = getpid();
-	pid_t pid = fork();
-
-	if (pid == -1)
-	{
-	    // Fehler beim Aufruf von fork()
-	}
-	else if (pid > 0)
-	{
-	    int status;
-	    waitpid(pid, &status, 0);
-	}
-	else
-	{
-	    // Kindprozess
-	    // execve(...);
-		execv(path, argv);
-	    _exit(EXIT_FAILURE);   // exec kommt nie zurueck
-	}
-}
-
 /*
  * Das aktuelle Verzeichnis aendern
  * Parameter:

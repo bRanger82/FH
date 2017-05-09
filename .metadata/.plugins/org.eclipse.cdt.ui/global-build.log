@@ -1869,3 +1869,75 @@ Invoking: GCC C Linker
 gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
 Finished building target: FHSS
  
+07:55:26 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+08:00:18 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+08:01:23 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+08:03:20 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+08:04:24 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 
+08:05:50 **** Incremental Build of configuration Debug for project FHSS ****
+make all 
+Building file: ../src/FHSS.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FHSS.d" -MT"src/FHSS.d" -o "src/FHSS.o" "../src/FHSS.c"
+Finished building: ../src/FHSS.c
+ 
+Building target: FHSS
+Invoking: GCC C Linker
+gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o   
+Finished building target: FHSS
+ 

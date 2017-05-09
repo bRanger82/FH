@@ -1,4 +1,4 @@
-12:39:34 **** Incremental Build of configuration Debug for project FHSS ****
+08:05:50 **** Incremental Build of configuration Debug for project FHSS ****
 make all 
 Building file: ../src/FHSS.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "FHSS"  ./src/FHSS.o ./src/SList.o ./src/Stack.o
 Finished building target: FHSS
  
 
-12:39:35 Build Finished (took 242ms)
+08:05:50 Build Finished (took 210ms)
 

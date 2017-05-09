@@ -15,7 +15,6 @@ const char * cmdListDir = "ls";	     // Zeige das Inhaltsverzeichnis an
 #define NORMAL_COLOR  "\x1B[0m"
 #define GREEN         "\x1B[32m"
 #define BLUE          "\x1B[34m"
-#define MANGAN        "\x1B[35m"
 // Ende Definition Farbausgabe
 
 // Bitmaske fuer die ls Parameter

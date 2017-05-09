@@ -71,27 +71,10 @@ void showHelp(void)
     printf("\t         \tWenn kein Parameter angegeben wird, wird das aktuelle Verzeichnis verwendet.\n");
 }
 
-/*
- * Gibt den Dateirechte einer Datei auf stdout aus
- * bswp:
- *       drwxr--r--
- *       -rwxr--r--
- * Parameter:
- * 	- st_mode: st_mode aus der Funktion stat fuer eine Datei
- */
 void printfFileRights(__mode_t st_mode)
 {
 	printf("%s",NORMAL_COLOR);
-	if (S_ISLNK(st_mode))
-	{
-		printf("l");
-	} else if (S_ISDIR(st_mode))
-	{
-		printf("d");
-	} else
-	{
-		printf("-");
-	}
+	printf( (S_ISDIR(st_mode)) ? "d" : "-");
 	printf( (st_mode & S_IRUSR) ? "r" : "-");
 	printf( (st_mode & S_IWUSR) ? "w" : "-");
 	printf( (st_mode & S_IXUSR) ? "x" : "-");
@@ -103,16 +86,10 @@ void printfFileRights(__mode_t st_mode)
 	printf( (st_mode & S_IXOTH) ? "x" : "-");
 }
 
-/*
- * Gibt den Gruppennamen der Datei auf stdout aus
- * Parameter:
- * 	- gid: group-id der Datei
- */
 void printGroupUser(__gid_t gid)
 {
 	struct group *grp;
 	grp = getgrgid(gid);
-	printf("%s", NORMAL_COLOR);
 	if (NULL == grp->gr_name)
 	{
 		printf("<null>");
@@ -122,17 +99,11 @@ void printGroupUser(__gid_t gid)
 	}
 }
 
-/*
- * Gibt die Benuternamen der Datei auf stdout aus
- * Parameter:
- * 	- uid: user-id der Datei
- */
 void printUserUser(__uid_t uid)
 {
 	struct passwd *pwd;
 
 	pwd = getpwuid(uid);
-	printf("%s", NORMAL_COLOR);
 	if (NULL == pwd->pw_name)
 	{
 		printf("<null>");
@@ -142,84 +113,36 @@ void printUserUser(__uid_t uid)
 	}
 }
 
-/*
- * Gibt die Anzahl der Links einer Datei formatiert auf stdout aus
- * Parameter:
- * 	- nlink_t: Anzahl der Links der Datei
- */
 void printLinkInfo(__nlink_t nlink_t)
 {
-	printf("%s", NORMAL_COLOR);
-	printf("%02"PRId64"", nlink_t);
+	printf("%"PRId64"", nlink_t);
 }
 
-/*
- * Gibt das Datum der Datei formatiert auf stdout aus
- * Wenn der Zeitpunkt der Erstellung nicht im selben Jahr wie die aktuelle Systemzeit ist
- * wird  'Monat Tag Jahr' ausgegeben
- * sonst 'Monat Tag Uhrzeit'
- * Parameter:
- * 	- mtime: Datum der Datei
- */
 void printFileDate(const time_t mtime)
 {
-	printf("%s", NORMAL_COLOR);
-
-	struct tm * tm_info;
-	struct tm * timeinfo = getTimeInfo();
+	struct tm* tm_info;
 
 	tm_info = localtime(&mtime);
-
 	printf("%s", monthNames[tm_info->tm_mon-1]);
 	printf(" %02d", tm_info->tm_mday);
-	//Wenn aktuelles Jahr nicht gleich das Jahr der Datei -> Jahr anstelle der Uhrzeit ausgeben
-	if ((timeinfo->tm_year) == (tm_info->tm_year))
-	{
-		printf(" %02d:%02d", tm_info->tm_hour, tm_info->tm_min);
-	} else
-	{
-		printf("  %04d", tm_info->tm_year+1900);
-	}
 
 }
 
-/*
- * Gibt die Groesse der Datei formatiert auf stdout aus
- * Parameter:
- * 	- size: Dateigroesse
- */
 void printFileSize(__off_t size)
 {
-	char str[30];
+	char str[10];
+
 	sprintf(str, "%"PRId64"", size);
-	if (size < 10000000)
-	{
-		printf("%9s", str);
-	} else
-	{
-		printf("%15s", str);
-	}
+	printf("%10s", str);
 }
 
-/*
- * Gibt den Dateinamen auf stdout aus
- * Abhaengig von dem Typ (Verzeichnis, Datei, Link, ...)
- * werden diese in unterschiedlichen Farben auf stdout ausgegeben
- * Parameter:
- * 	- st: die Struktur von dem Verzeichnis welche mittels stat eingelesen wurde
- * 	- d_name: Dateiname
- */
 void printFileName(struct stat st, const char * d_name)
 {
-	// Handelt es sich um eine ausfuehrbare Datei?
-	bool isExecuteAble = (st.st_mode & S_IXUSR) || (st.st_mode & S_IXGRP) || (st.st_mode & S_IXOTH);
 
+	bool isExecuteAble = (st.st_mode & S_IXUSR) || (st.st_mode & S_IXGRP) || (st.st_mode & S_IXOTH);
 	if (S_ISDIR(st.st_mode))
 	{
 		printf("%s%s  ", BLUE, d_name);
-	} else if (S_ISLNK(st.st_mode))
-	{
-		printf("%s%s  ", MANGAN, d_name);
 	} else if (isExecuteAble)
 	{
 		printf("%s%s  ", GREEN, d_name);
@@ -250,23 +173,17 @@ int show_dir_content(char * path, int params)
 
 	while ((dir = readdir(d)) != NULL) // Solange die Dateien aus dem Verzeichnis gelesen werden kann
 	{
-		// ignorieren, wenn Parameter nicht gesetzt ist
-		if(dir->d_name[0] == '.' && ((params & MASK_LS_a) != MASK_LS_a))
-		{
-			continue;
-		}
 
 		struct stat st;
-
-		// Fehlerbehandlung
-		if (stat(dir->d_name, &st) == -1)
-		{
-			printf("Fehler beim Lesen von %s\n",dir->d_name);
-			continue;
-		}
+		stat(dir->d_name, &st);
 
 		if ((params & MASK_LS_l) == MASK_LS_l)
 		{
+			if(dir->d_name[0] == '.' && ((params & MASK_LS_a) != MASK_LS_a))
+			{
+				continue;
+			}
+
 			printfFileRights(st.st_mode);
 			printf(" ");
 			printLinkInfo(st.st_nlink);
@@ -283,6 +200,10 @@ int show_dir_content(char * path, int params)
 			printf("\n");
 		} else
 		{
+			if(dir->d_name[0] == '.' && ((params & MASK_LS_a) != MASK_LS_a))
+			{
+				continue;
+			}
 			printFileName(st, dir->d_name);
 		}
 
@@ -293,29 +214,6 @@ int show_dir_content(char * path, int params)
 	}
 	closedir(d); // Den Verzeichnis-Kanal schliessen
 	return RET_PARSE_CMD_OK;
-}
-
-int runExecuteable(char * path, char * argv)
-{
-	pid_t parent = getpid();
-	pid_t pid = fork();
-
-	if (pid == -1)
-	{
-	    // Fehler beim Aufruf von fork()
-	}
-	else if (pid > 0)
-	{
-	    int status;
-	    waitpid(pid, &status, 0);
-	}
-	else
-	{
-	    // Kindprozess
-	    // execve(...);
-		execv(path, argv);
-	    _exit(EXIT_FAILURE);   // exec kommt nie zurueck
-	}
 }
 
 /*
