@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1496356151 source:c:\users\hase\desktop\fh\cprojekte\datenlogger\ini.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<ctype.h>
+	"ini.h"
+
+1496356187 source:c:\users\hase\desktop\fh\cprojekte\datenlogger\liste.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Liste.h"
+
+1496355640 c:\users\hase\desktop\fh\cprojekte\datenlogger\liste.h
+
+1494424428 source:f:\cprojekte\datenlogger\ini.c
+
+1494424612 source:f:\cprojekte\datenlogger\liste.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Liste.h"
+
+1494424636 f:\cprojekte\datenlogger\liste.h
+
+1496355587 source:c:\users\hase\desktop\fh\cprojekte\datenlogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ini.h"
+
+1494424428 c:\users\hase\desktop\fh\cprojekte\datenlogger\ini.c
+
+1496355324 c:\users\hase\desktop\fh\cprojekte\datenlogger\ini.h
+	<stdbool.h>
+	"Liste.h"
+
+1496382440 source:c:\users\bimi\downloads\datenlogger\ini.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<ctype.h>
+	"ini.h"
+
+1496382440 c:\users\bimi\downloads\datenlogger\ini.h
+	<stdbool.h>
+	"Liste.h"
+
+1496383094 c:\users\bimi\downloads\datenlogger\liste.h
+
+1496757321 source:c:\users\bimi\downloads\datenlogger\main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdbool.h>
+	"ini.h"
+
+1496383047 source:c:\users\bimi\downloads\datenlogger\liste.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Liste.h"
+
