@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1491403451 source:c:\users\hase\desktop\fh\cprojekte\slist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"SList.h"
+	<string.h>
+
+1491403564 source:c:\users\hase\desktop\fh\cprojekte\slist\slist.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"SList.h"
+
+1491402237 c:\users\hase\desktop\fh\cprojekte\slist\slist.h
+
+1491405995 source:c:\users\hase\desktop\fh\cprojekte\slist\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"Queue.h"
+	"SList.h"
+
+1491406169 c:\users\hase\desktop\fh\cprojekte\slist\queue.h
+	<stdbool.h>
+
+1491406034 source:c:\users\hase\desktop\fh\cprojekte\slist\stack.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"Queue.h"
+	"SList.h"
+
